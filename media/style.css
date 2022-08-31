@@ -1,5 +1,4 @@
 @import "https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500;600;700;800&display=swap";
-
 * {
     margin: 0;
     padding: 0;
@@ -1195,7 +1194,7 @@ header {
 }
 
 .vertical-media {
-    list-style: none;
+    list-style-type: none;
     transform: rotate(-90deg);
     display: inline-block
 }
@@ -1218,22 +1217,7 @@ header {
     }
 }
 
-.vertical-media li:before {
-    position: absolute;
-    content: "";
-    height: 10px;
-    width: 10px;
-    border: 1px dashed #fff;
-    border-radius: 50%;
-    left: -10px;
-    top: 42%;
-    transform: translateY(-42%);
-    animation-name: rotateme;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    transition: all .2s cubic-bezier(.98, .57, 1, 1) 0s
-}
+
 
 @media (max-width: 767px) {
     .vertical-media li:before {
@@ -1346,7 +1330,7 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, .05);
     border-radius: 10px;
     padding: 30px;
-    transition: all .5s ease-out 0s
+    transition: all .5s ease-out 0s;
 }
 
 .single-service span {
@@ -5282,3 +5266,4 @@ footer.error {
     border-radius: 10px;
     padding: 10px 30px
 }
+
