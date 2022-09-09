@@ -285,7 +285,7 @@ input, select, audio, canvas, iframe, img, svg, video {
 
 .breadcrumbs {
     position: relative;
-    height: 480px;
+    height: 250px;
     background-image: url(../media/breadcrumb-bg.jpg);
     background-size: cover;
     background-position: center center;
@@ -314,7 +314,7 @@ input, select, audio, canvas, iframe, img, svg, video {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 480px
+    height: 300px
 }
 
 @media (max-width: 767px) {
@@ -925,7 +925,7 @@ header {
 
 .nav-right {
     display: flex;
-    align-items: center
+    align-items: center;
 }
 
 .get-qoute {
@@ -2680,7 +2680,8 @@ footer.error {
 
 .social-media-icons {
     list-style: none;
-    margin-top: 30px
+    
+    
 }
 
 .social-media-icons li {
