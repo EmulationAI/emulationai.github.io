@@ -2686,7 +2686,19 @@ footer.error {
 
 .social-media-icons li {
     display: inline-block;
-    padding-right: 30px
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.social-media-icons-1 {
+    list-style: none;
+    
+    
+}
+
+.social-media-icons-1 li {
+    display: inline-block;
+    padding-right: 30px;
+    
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -2719,6 +2731,18 @@ footer.error {
     background: #0f1012;
     transition: all .8s ease-out 0s
 }
+.social-media-icons-1 li a {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #e4e4e4;
+    background: #0f1012;
+    transition: all .8s ease-out 0s
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .social-media-icons li a {
@@ -2729,6 +2753,11 @@ footer.error {
 }
 
 .social-media-icons li a:hover {
+    color: #0f1012;
+    background-color: #75dab4;
+    transform: rotate(360deg)
+}
+.social-media-icons-1 li a:hover {
     color: #0f1012;
     background-color: #75dab4;
     transform: rotate(360deg)
