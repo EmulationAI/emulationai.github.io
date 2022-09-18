@@ -67,15 +67,15 @@ input, select, audio, canvas, iframe, img, svg, video {
 }
 
 .sec-mar {
-    margin: 120px 0
+    margin: 20px 0
 }
 
 .sec-mar-top {
-    margin-top: 120px
+    margin-top: 20px
 }
 
 .sec-mar-bottom {
-    margin-bottom: 120px
+    margin-bottom: 20px
 }
 
 .preloader {
