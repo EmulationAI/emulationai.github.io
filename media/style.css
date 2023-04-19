@@ -5297,36 +5297,3 @@ footer.error {
     padding: 10px 30px
 }
 
-
-
-
-#progress-bar{
-    height: 10px;
-    display: flex;
-    flex: 1;
-    margin: 20px;
-    border-radius: 100px;
-}
-.progress-bar-inner{
-    display: flex;
-    flex: 1;
-    height: 100%;
-    /* border-radius: 100px; */
-}
-
-.dropdown{
-    background: none;
-    border: none;
-    color: white;
-    outline: none;
-}
-.dropdown >option{
-    background: none;
-    background-color: black;
-    color: white;
-}
-.dropdown >option:hover{
-    background: none;
-    background-color: white;
-    color: black;
-}
