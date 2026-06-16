@@ -1,0 +1,141 @@
+:root {
+    --md-sys-color-primary: #2f6fdd;
+    --md-sys-color-on-primary: #fff;
+    --md-sys-color-secondary: #006c4e;
+    --md-sys-color-surface: #f8f9fd;
+    --md-sys-color-on-surface: #1b1c20;
+    --md-sys-color-outline-variant: #dfe2ea;
+    --mat-shadow-1: 0 1px 2px rgba(17, 24, 39, 0.08), 0 1px 3px rgba(17, 24, 39, 0.06);
+    --mat-shadow-2: 0 6px 20px rgba(17, 24, 39, 0.12);
+}
+
+body.material-theme {
+    background: var(--md-sys-color-surface);
+    color: var(--md-sys-color-on-surface);
+    font-family: "Roboto", "Saira", sans-serif;
+}
+
+body.material-theme h1,
+body.material-theme h2,
+body.material-theme h3,
+body.material-theme h4,
+body.material-theme h5,
+body.material-theme h6 {
+    font-family: "Roboto", "Saira", sans-serif;
+    letter-spacing: 0.01em;
+}
+
+body.material-theme .header-area {
+    background: rgba(255, 255, 255, 0.86);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--mat-shadow-1);
+}
+
+body.material-theme .main-nav ul li a {
+    border-radius: 999px;
+    color: #3e4557;
+    font-weight: 500;
+    padding: 8px 14px;
+    transition: all 0.2s ease;
+}
+
+body.material-theme .main-nav ul li a:hover,
+body.material-theme .main-nav ul li a.active {
+    background: rgba(47, 111, 221, 0.12);
+    color: var(--md-sys-color-primary);
+}
+
+body.material-theme .hero-area,
+body.material-theme .breadcrumb-area {
+    border-radius: 0 0 28px 28px;
+    overflow: hidden;
+}
+
+body.material-theme .single-service,
+body.material-theme .single-blog,
+body.material-theme .single-team,
+body.material-theme .single-pricing,
+body.material-theme .single-project,
+body.material-theme .widget,
+body.material-theme .contact-wrapper,
+body.material-theme .faq-wrap .accordion-item {
+    background: #fff;
+    border: 1px solid var(--md-sys-color-outline-variant);
+    border-radius: 20px;
+    box-shadow: var(--mat-shadow-1);
+}
+
+body.material-theme .single-service:hover,
+body.material-theme .single-blog:hover,
+body.material-theme .single-team:hover,
+body.material-theme .single-pricing:hover,
+body.material-theme .single-project:hover {
+    box-shadow: var(--mat-shadow-2);
+    transform: translateY(-2px);
+}
+
+body.material-theme .cmn-btn a,
+body.material-theme button,
+body.material-theme .submit-btn {
+    align-items: center;
+    background: var(--md-sys-color-primary);
+    border: 0;
+    border-radius: 999px;
+    color: var(--md-sys-color-on-primary);
+    display: inline-flex;
+    font-weight: 600;
+    gap: 8px;
+    letter-spacing: 0.01em;
+    min-height: 42px;
+    padding: 0 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+body.material-theme .mat-pill-action {
+    overflow: hidden;
+    position: relative;
+}
+
+body.material-theme .cmn-btn.layout-two a {
+    background: var(--md-sys-color-secondary);
+}
+
+body.material-theme .cmn-btn a:hover,
+body.material-theme button:hover,
+body.material-theme .submit-btn:hover {
+    box-shadow: var(--mat-shadow-2);
+    transform: translateY(-1px);
+}
+
+body.material-theme input,
+body.material-theme textarea,
+body.material-theme select {
+    background: #fff;
+    border: 1px solid var(--md-sys-color-outline-variant);
+    border-radius: 12px;
+    min-height: 46px;
+    padding: 0 14px;
+}
+
+body.material-theme textarea {
+    min-height: 120px;
+    padding: 12px 14px;
+}
+
+body.material-theme input:focus,
+body.material-theme textarea:focus,
+body.material-theme select:focus {
+    border-color: var(--md-sys-color-primary);
+    box-shadow: 0 0 0 3px rgba(47, 111, 221, 0.18);
+}
+
+body.material-theme .footer-area {
+    background: #10141f;
+    border-radius: 28px 28px 0 0;
+    margin-top: 48px;
+}
+
+body.material-theme .sec-title span {
+    color: var(--md-sys-color-primary);
+    font-weight: 600;
+}
